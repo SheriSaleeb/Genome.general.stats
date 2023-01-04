@@ -2,11 +2,11 @@
 
 # set -euxo pipefail
 
-project=$1
-run=$2
+#project=$1
+run=$1
 echo $run
 
-HOME=/rSAN3/Projects/$project/$run
+HOME=/SAN4NFS/Projects/02_Population_Egypt_Genome/$run
 rm -fr $HOME/04_Stats
 mkdir -p $HOME/04_Stats
 
