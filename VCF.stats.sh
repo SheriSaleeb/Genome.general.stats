@@ -6,7 +6,7 @@ project=$1
 run=$2
 echo $run
 
-HOME=/rSAN3/Projects/$project/$run
+HOME=//SAN4NFS/Projects/$project/$run
 mkdir -p $HOME/04_Stats
 
 STATS=$HOME/04_Stats/$run.vc_metrics.tsv
